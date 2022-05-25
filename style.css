@@ -1,0 +1,233 @@
+body{
+    background: #007f64;
+
+}
+
+/* la partie de map */
+#map {
+    height: 800px;
+    width: 1050px;
+    float: left;
+    margin: 1px;
+}
+
+h2{
+    text-align: center;
+    font-size: 4em;
+    color: black;
+    font-family: 'Tangerine', cursive;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-shadow: 1px 2px 1px rgba(12, 12, 12, 0.37);
+
+    text-transform: capitalize;
+}
+p{
+    margin: 2em 0;
+    line-height: 28px;
+    font-size: 15px;
+    font-weight: 100;
+    padding:0 4em;
+    letter-spacing: 1px;
+    color: black;
+    text-align: center;
+}
+/*body{
+    background:url(image/local-map.jpg);
+    background-size: cover;
+    -webkit-background-size: cover;
+    background-attachment: fixed;
+    font-size: 100%;
+    overflow-x: hidden;
+    background-position: center;
+    font-family: 'Hind Siliguri', sans-serif;
+    margin : 0px ;
+}*/
+#container-right{
+    width: 60%;
+    /*background-color: rgba(0, 0, 0, 0.7);*/
+    float: right;
+    padding: 3em 2em;
+    margin-top :-70px;
+
+    margin-right: 16px;
+}
+#container-left{
+    width: 35%;
+    float: left;
+    padding: 3em 2em;
+    margin-top : -70px;
+    margin-right: 16px;
+}
+h1{
+    text-align: center;
+    color: #fff;
+    font-family: 'Tangerine', cursive;
+    font-weight: bold;
+    font-size: 2.8em;
+    letter-spacing: 1px;
+    text-shadow: 1px 2px 1px rgba(12, 12, 12, 0.37);
+    margin: 3vw 1vw;
+}
+input[type=text], input[type=password] {
+    padding: 10px;
+    color: #5d5c5c;
+    font-size: .9em;
+    outline: none;
+    border: none;
+    background: #fff;
+    width: 95%;
+    font-family: 'Hind Siliguri', sans-serif;
+    letter-spacing: 1px;
+    border: 3px double #03A9F4;
+    border-radius: 4px;
+    margin-bottom: 17px;
+}
+input[type=submit], input[type=button] {
+    background-color: rgb(2,198,198);
+    color: white;
+    padding: 10px 50px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 95%;
+    font-family: 'Hind Siliguri', sans-serif;
+    letter-spacing: 1px;
+    margin: 1.5em 0 0;
+}
+input[type=submit]:hover, input[type=button]:hover {
+    background: #fff;
+    color: #000;
+}
+
+
+/* la partie de signal et notif */
+#container-signal, #container-notif {
+    width: 600px;
+    background-color: rgba(0, 0, 0, 0.7);
+    float: right;
+    padding: 1em 1em;
+    margin: 1px;
+}
+h4{
+    text-align: center;
+    color: #fff;
+    font-family: 'Tangerine', cursive;
+    font-weight: bold;
+    font-size: 2em;
+    letter-spacing: 1px;
+    margin: 3px ;
+}
+table {
+   border: medium solid #6495ed;
+    border-collapse: collapse;
+   width: 30%;
+
+}
+th {
+   font-family: monospace;
+  border: thin solid #6495ed;
+   width: 30%;
+    padding: 5px;
+   background-color: #D0E3FA;
+}
+td {
+    font-family: sans-serif;
+    border: thin solid #6495ed;
+    width: 30%;
+   padding: 5px;
+    text-align: center;
+   background-color: #ffffff;
+}
+
+/* The popup form - hidden by default */
+.form-popup {
+    display: none;
+    bottom: 1;
+    right: 15px;
+    border: 3px solid #f1f1f1;
+    z-index: 15;
+    margin :10px;
+    background-color: rgb(0,127,100);
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height:70%;
+    width:50%;
+    top :100px;
+    right: 50px;
+    position:absolute;
+}
+#form{
+    width: 40%;
+    margin-top : 5px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+/*input[type=text] {*/
+/*    padding: 10px;*/
+/*    color: #5d5c5c;*/
+/*    font-size: .9em;*/
+/*    outline: none;*/
+/*    border: none;*/
+/*    background: #fff;*/
+/*    width: 95%;*/
+/*    font-family: 'Hind Siliguri', sans-serif;*/
+/*    letter-spacing: 1px;*/
+/*    border: 3px double #03A9F4;*/
+/*    margin-left: 20%;*/
+/*    margin-bottom: 17px;*/
+/*}*/
+#suppr, #modif{
+    background-color: rgb(2,198,198);
+    color: white;
+    padding: 10px 10px;
+    border: none;
+    cursor: pointer;
+    /*width: 100%;*/
+    font-family: 'Hind Siliguri', sans-serif;
+    letter-spacing: 1px;
+    margin-bottom: 1px;
+
+}
+#ajout{
+    background-color: rgb(2,198,198);
+    color: white;
+    padding: 10px 10px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Hind Siliguri', sans-serif;
+    letter-spacing: 1px;
+    margin-bottom: 1px;
+    float: right;
+}
+.ajout-signal, .modif-signal, .suppr-signal, .cancel{
+    background-color: rgb(2,198,198);
+    color: white;
+    padding: 10px 50px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 55%;
+    font-family: 'Hind Siliguri', sans-serif;
+    letter-spacing: 1px;
+    margin: 1.5em 0 0;
+    margin-left: 20%;
+}
+.ajout-signal:hover, .modif-signal:hover, .suppr-signal:hover, .cancel:hover, #suppr:hover, #modif:hover, #ajout:hover {
+    background: #fff;
+    color: #000;
+}
+
+/* footer*/
+.footer{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content:flex-end;
+    background:#e7e7e7;
+    bottom: 0;
+    width: 100%;
+    height:9%;
+
+}
